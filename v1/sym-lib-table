@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "MadPresso")(type "Legacy")(uri "${KIPRJMOD}/MadPresso.lib")(options "")(descr ""))
+  (lib (name "MadPresso-rescue")(type "Legacy")(uri "${KIPRJMOD}/MadPresso-rescue.lib")(options "")(descr ""))
+)
