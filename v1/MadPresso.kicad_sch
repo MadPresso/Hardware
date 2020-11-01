@@ -2875,7 +2875,7 @@
     (in_bom yes) (on_board yes)
     (uuid "7c0f56a1-0f85-4240-bbd4-7f7fbc559178")
     (property "Reference" "F1" (id 0) (at 184.15 25.5078 90))
-    (property "Value" "1A/250V" (id 1) (at 184.15 27.813 90))
+    (property "Value" "0.1A/250V" (id 1) (at 184.15 27.813 90))
     (property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" (id 2) (at 184.15 32.258 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3463,7 +3463,7 @@
       (reference "D9") (unit 1) (value "SMBJ7.0A") (footprint "Diode_SMD:D_SMB")
     )
     (path "/7c0f56a1-0f85-4240-bbd4-7f7fbc559178"
-      (reference "F1") (unit 1) (value "1A/250V") (footprint "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open")
+      (reference "F1") (unit 1) (value "0.1A/250V") (footprint "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open")
     )
     (path "/00000000-0000-0000-0000-00005f95d6b9"
       (reference "J1") (unit 1) (value "Conn_01x07") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_7-G-5,08_1x07_P5.08mm_Horizontal")
