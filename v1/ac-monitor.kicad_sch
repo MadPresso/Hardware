@@ -514,7 +514,7 @@
     (property "Reference" "C6" (id 0) (at 117.6402 74.2886 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C_Small" (id 1) (at 117.6402 76.5873 0)
+    (property "Value" "DNP" (id 1) (at 117.6528 76.581 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (id 2) (at 115.316 75.438 0)
