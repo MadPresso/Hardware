@@ -1432,10 +1432,10 @@
   (junction (at 262.636 31.75) (diameter 1.016) (color 0 0 0 0))
   (junction (at 262.636 41.91) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 252.095 86.995))
-  (no_connect (at 231.775 76.835))
-  (no_connect (at 231.775 84.455))
   (no_connect (at 231.775 86.995))
+  (no_connect (at 231.775 84.455))
+  (no_connect (at 231.775 76.835))
+  (no_connect (at 252.095 86.995))
 
   (wire (pts (xy 21.59 169.672) (xy 29.845 169.672))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -3575,7 +3575,7 @@
       (reference "Q5") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-000060629c35/00000000-0000-0000-0000-00006062f25e"
-      (reference "R15") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "R15") (unit 1) (value "1k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000060629c35/00000000-0000-0000-0000-00006062f291"
       (reference "R16") (unit 1) (value "120") (footprint "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
@@ -3605,7 +3605,7 @@
       (reference "Q7") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00006068f3b5/00000000-0000-0000-0000-00006062f25e"
-      (reference "R19") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "R19") (unit 1) (value "1k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00006068f3b5/00000000-0000-0000-0000-00006062f291"
       (reference "R20") (unit 1) (value "120") (footprint "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
@@ -3635,7 +3635,7 @@
       (reference "Q9") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-0000606d3a29/00000000-0000-0000-0000-00006062f25e"
-      (reference "R23") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "R23") (unit 1) (value "1k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000606d3a29/00000000-0000-0000-0000-00006062f291"
       (reference "R24") (unit 1) (value "120") (footprint "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
