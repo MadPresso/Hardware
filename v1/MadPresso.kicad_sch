@@ -1432,10 +1432,10 @@
   (junction (at 262.636 31.75) (diameter 1.016) (color 0 0 0 0))
   (junction (at 262.636 41.91) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 231.775 86.995))
-  (no_connect (at 231.775 84.455))
-  (no_connect (at 231.775 76.835))
   (no_connect (at 252.095 86.995))
+  (no_connect (at 231.775 86.995))
+  (no_connect (at 231.775 76.835))
+  (no_connect (at 231.775 84.455))
 
   (wire (pts (xy 21.59 169.672) (xy 29.845 169.672))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -3146,12 +3146,12 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 64.77 38.735 180) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 64.77 38.735 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "3b67d7d9-14f9-46f2-9c26-7ea51b8e981b")
-    (property "Reference" "J2" (id 0) (at 66.802 30.6132 0))
-    (property "Value" "Conn_01x03" (id 1) (at 66.802 32.9119 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" (id 2) (at 64.77 38.735 0)
+    (property "Reference" "J2" (id 0) (at 64.643 30.3468 0))
+    (property "Value" "Conn_01x03" (id 1) (at 64.77 32.8741 0))
+    (property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" (id 2) (at 64.77 38.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 64.77 38.735 0)
@@ -3494,7 +3494,7 @@
       (reference "J1") (unit 1) (value "Conn_01x07") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_7-G-5,08_1x07_P5.08mm_Horizontal")
     )
     (path "/3b67d7d9-14f9-46f2-9c26-7ea51b8e981b"
-      (reference "J2") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal")
+      (reference "J2") (unit 1) (value "Conn_01x03") (footprint "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal")
     )
     (path "/d88f3030-1974-43e3-8892-faa2a80ca689"
       (reference "PS1") (unit 1) (value "HLK-PM01") (footprint "Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx")
