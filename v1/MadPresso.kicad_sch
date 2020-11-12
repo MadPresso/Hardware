@@ -2883,7 +2883,7 @@
     (property "Reference" "R14" (id 0) (at 116.8146 84.4296 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1k" (id 1) (at 116.8146 86.741 0)
+    (property "Value" "4k7" (id 1) (at 116.8146 86.741 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (id 2) (at 115.316 85.598 0)
@@ -3548,7 +3548,7 @@
       (reference "R13") (unit 1) (value "330") (footprint "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005ffe1cf2"
-      (reference "R14") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "R14") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000604d5951"
       (reference "RV1") (unit 1) (value "S14K350") (footprint "Varistor:RV_Disc_D15.5mm_W3.9mm_P7.5mm")
