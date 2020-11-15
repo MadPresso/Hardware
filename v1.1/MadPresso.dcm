@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LDE0x-20Bxx
+F https://docs.rs-online.com/8e88/0900766b816b4d1a.pdf
+$ENDCMP
+#
+$CMP LS05
+F https://docs.rs-online.com/779a/0900766b81587aca.pdf
+$ENDCMP
+#
+#End Doc Library
