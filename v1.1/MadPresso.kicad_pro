@@ -45,7 +45,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 2.0
+          "min_clearance": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -419,12 +419,12 @@
       "Steam AC monitor"
     ],
     [
-      "00000000-0000-0000-0000-000060629c35",
-      "Heater Triac"
-    ],
-    [
       "00000000-0000-0000-0000-00006068f3b5",
       "Pump Triac"
+    ],
+    [
+      "00000000-0000-0000-0000-000060629c35",
+      "Heater Triac"
     ],
     [
       "00000000-0000-0000-0000-0000606d3a29",
