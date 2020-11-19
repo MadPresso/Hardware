@@ -10,3 +10,6 @@
 * Improve AC clearance
 * Move fuse before ZC detection logic
 * Removed LEDs to free I2C lines
+* Switch to SMD triacs
+* Value changes in triac circuit
+
