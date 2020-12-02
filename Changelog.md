@@ -1,3 +1,9 @@
+# Changelog v1.1 → v1.2
+
+* Thicker thermal connectors on LINE power plane, amended clearance a bit
+* Fix Q2 polarity
+* Add open hardware logo
+
 # Changelog v1 → v1.1
 
 * Replace 4 1N4148 with MD6S bridge rectifier

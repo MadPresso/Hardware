@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "MadPresso-rescue")(type "Legacy")(uri "${KIPRJMOD}/MadPresso-rescue.lib")(options "")(descr ""))
+  (lib (name "MadPresso")(type "KiCad")(uri "${KIPRJMOD}/MadPresso.kicad_sym")(options "")(descr ""))
+)
