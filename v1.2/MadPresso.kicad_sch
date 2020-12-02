@@ -2075,9 +2075,9 @@
   (junction (at 255.27 41.91) (diameter 1.016) (color 0 0 0 0))
   (junction (at 266.7 75.946) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 193.04 85.09))
-  (no_connect (at 193.04 95.25))
   (no_connect (at 193.04 92.71))
+  (no_connect (at 193.04 95.25))
+  (no_connect (at 193.04 85.09))
 
   (wire (pts (xy 22.86 184.15) (xy 39.37 184.15))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -4749,7 +4749,7 @@
       (reference "#SYM?") (unit 1) (value "SYM_Flash_Small") (footprint "")
     )
     (path "/dd03b277-31a7-4069-8dc6-f5f7f7187411/fcd8f923-0034-4176-a3e5-2a5d15d0150b"
-      (reference "C10") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C10") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/dd03b277-31a7-4069-8dc6-f5f7f7187411/99225af4-81e0-4aae-9034-daf179f83905"
       (reference "R14") (unit 1) (value "22k/0.5W") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
@@ -4785,7 +4785,7 @@
       (reference "#SYM?") (unit 1) (value "SYM_Flash_Small") (footprint "")
     )
     (path "/05010e3e-00da-4795-be36-9a91498676b3/fcd8f923-0034-4176-a3e5-2a5d15d0150b"
-      (reference "C11") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C11") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/05010e3e-00da-4795-be36-9a91498676b3/99225af4-81e0-4aae-9034-daf179f83905"
       (reference "R17") (unit 1) (value "22k/0.5W") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
