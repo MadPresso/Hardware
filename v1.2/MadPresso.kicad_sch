@@ -3908,7 +3908,7 @@
   (symbol (lib_id "Graphic:SYM_Flash_Small") (at 45.593 83.312 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "ecc8c4eb-32d8-4430-8e03-6559faf52d66")
-    (property "Reference" "#SYM?" (id 0) (at 43.307 83.312 90)
+    (property "Reference" "#SYM1" (id 0) (at 43.307 83.312 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "SYM_Flash_Small" (id 1) (at 47.879 83.312 90)
@@ -3925,7 +3925,7 @@
   (symbol (lib_id "Graphic:SYM_Flash_Small") (at 55.118 34.036 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "48f7ccca-fe22-428b-914e-d8631c6a644e")
-    (property "Reference" "#SYM?" (id 0) (at 52.832 34.036 90)
+    (property "Reference" "#SYM2" (id 0) (at 52.832 34.036 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "SYM_Flash_Small" (id 1) (at 57.404 34.036 90)
@@ -3942,7 +3942,7 @@
   (symbol (lib_id "Graphic:SYM_Flash_Small") (at 188.595 36.83 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "c8af1784-7932-4cb3-bc9d-0898bd2928a4")
-    (property "Reference" "#SYM?" (id 0) (at 186.309 36.83 90)
+    (property "Reference" "#SYM3" (id 0) (at 186.309 36.83 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "SYM_Flash_Small" (id 1) (at 190.881 36.83 90)
@@ -4232,7 +4232,7 @@
   (symbol (lib_id "Graphic:Logo_Open_Hardware_Small") (at 223.52 173.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "2bc4f346-6727-4dde-808e-ec7164848164")
-    (property "Reference" "#LOGO?" (id 0) (at 223.52 167.005 0)
+    (property "Reference" "#LOGO1" (id 0) (at 223.52 167.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Logo_Open_Hardware_Small" (id 1) (at 223.52 179.705 0)
@@ -4328,35 +4328,14 @@
     )
   )
 
-  (sheet (at 39.37 180.34) (size 21.59 7.62)
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-000060629c35)
-    (property "Sheet name" "Heater Triac" (id 0) (at 39.37 179.704 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "triac-output.kicad_sch" (id 1) (at 39.37 188.4685 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "OUTPUT" output (at 60.96 185.42 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (pin "TRIGGER" input (at 39.37 184.15 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (pin "INPUT" input (at 60.96 182.88 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-  )
-
   (sheet (at 39.37 152.4) (size 21.59 7.62)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00006068f3b5)
+    (uuid 00000000-0000-0000-1000-00006068f3b5)
     (property "Sheet name" "Pump Triac" (id 0) (at 39.37 151.764 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "triac-output.kicad_sch" (id 1) (at 39.37 160.5285 0)
+    (property "Sheet file" "triac-output-to252.kicad_sch" (id 1) (at 39.37 160.5285 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "OUTPUT" output (at 60.96 157.48 0)
@@ -4406,6 +4385,27 @@
     )
   )
 
+  (sheet (at 39.37 180.34) (size 21.59 7.62)
+    (stroke (width 0) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid c31b896b-ce94-47ca-afa8-bf3b0d71d02b)
+    (property "Sheet name" "Untitled Sheet" (id 0) (at 39.37 179.7045 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "triac-output-to263.kicad_sch" (id 1) (at 39.37 188.4685 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "OUTPUT" output (at 60.96 185.42 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (pin "INPUT" input (at 60.96 182.88 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (pin "TRIGGER" input (at 39.37 184.15 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+  )
+
   (sheet (at 39.37 166.37) (size 21.59 7.62)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -4413,7 +4413,7 @@
     (property "Sheet name" "Valve Triac" (id 0) (at 39.37 165.734 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "triac-output.kicad_sch" (id 1) (at 39.37 174.4985 0)
+    (property "Sheet file" "triac-output-to252.kicad_sch" (id 1) (at 39.37 174.4985 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "OUTPUT" output (at 60.96 171.45 0)
@@ -4429,16 +4429,16 @@
 
   (sheet_instances
     (path "/" (page "1"))
-    (path "/00000000-0000-0000-0000-000060629c35/" (page "2"))
-    (path "/00000000-0000-0000-0000-00006068f3b5/" (page "3"))
+    (path "/00000000-0000-0000-1000-00006068f3b5/" (page "3"))
     (path "/00000000-0000-0000-0000-0000606d3a29/" (page "4"))
     (path "/dd03b277-31a7-4069-8dc6-f5f7f7187411/" (page "5"))
+    (path "/c31b896b-ce94-47ca-afa8-bf3b0d71d02b/" (page "6"))
     (path "/05010e3e-00da-4795-be36-9a91498676b3/" (page "6"))
   )
 
   (symbol_instances
     (path "/2bc4f346-6727-4dde-808e-ec7164848164"
-      (reference "#LOGO?") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "")
+      (reference "#LOGO1") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000603d5096"
       (reference "#PWR01") (unit 1) (value "LINE") (footprint "")
@@ -4551,14 +4551,14 @@
     (path "/25d6b7ec-1eee-4af2-9c6e-b186fccdccea"
       (reference "#PWR0103") (unit 1) (value "NEUT") (footprint "")
     )
+    (path "/ecc8c4eb-32d8-4430-8e03-6559faf52d66"
+      (reference "#SYM1") (unit 1) (value "SYM_Flash_Small") (footprint "")
+    )
     (path "/48f7ccca-fe22-428b-914e-d8631c6a644e"
-      (reference "#SYM?") (unit 1) (value "SYM_Flash_Small") (footprint "")
+      (reference "#SYM2") (unit 1) (value "SYM_Flash_Small") (footprint "")
     )
     (path "/c8af1784-7932-4cb3-bc9d-0898bd2928a4"
-      (reference "#SYM?") (unit 1) (value "SYM_Flash_Small") (footprint "")
-    )
-    (path "/ecc8c4eb-32d8-4430-8e03-6559faf52d66"
-      (reference "#SYM?") (unit 1) (value "SYM_Flash_Small") (footprint "")
+      (reference "#SYM3") (unit 1) (value "SYM_Flash_Small") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ffbcb7d"
       (reference "C1") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -4686,92 +4686,56 @@
     (path "/9894fe15-3ac9-43ee-a482-ad694288b521"
       (reference "U3") (unit 1) (value "WeMos_D1_mini") (footprint "Module:WEMOS_D1_mini_light")
     )
-    (path "/00000000-0000-0000-0000-000060629c35/ae321a28-4e0f-457c-8caf-d766be9e382c"
-      (reference "#LOGO?") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "")
+    (path "/00000000-0000-0000-1000-00006068f3b5/ae321a28-4e0f-457c-8caf-d766be9e382c"
+      (reference "#LOGO2") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060629c35/00000000-0000-0000-0000-00006062f29c"
-      (reference "#PWR052") (unit 1) (value "+5V") (footprint "")
+    (path "/00000000-0000-0000-1000-00006068f3b5/00000000-0000-0000-0000-00006062f29c"
+      (reference "#PWR049") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060629c35/00000000-0000-0000-0000-00006062f286"
-      (reference "#PWR053") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-1000-00006068f3b5/00000000-0000-0000-0000-00006062f286"
+      (reference "#PWR050") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060629c35/0cf5727e-b364-402f-a2a7-cd2e02bc599d"
-      (reference "#SYM?") (unit 1) (value "SYM_Flash_Small") (footprint "")
+    (path "/00000000-0000-0000-1000-00006068f3b5/792488fd-7c49-42e3-8aef-22db23abbe53"
+      (reference "#SYM4") (unit 1) (value "SYM_Arrow45_Small") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060629c35/792488fd-7c49-42e3-8aef-22db23abbe53"
-      (reference "#SYM?") (unit 1) (value "SYM_Arrow45_Small") (footprint "")
+    (path "/00000000-0000-0000-1000-00006068f3b5/0cf5727e-b364-402f-a2a7-cd2e02bc599d"
+      (reference "#SYM5") (unit 1) (value "SYM_Flash_Small") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060629c35/00000000-0000-0000-0000-00006062f252"
-      (reference "Q7") (unit 1) (value "T835-600B") (footprint "Package_TO_SOT_SMD:TO-252-2")
-    )
-    (path "/00000000-0000-0000-0000-000060629c35/00000000-0000-0000-0000-00006062f258"
-      (reference "Q8") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/00000000-0000-0000-0000-000060629c35/00000000-0000-0000-0000-00006062f25e"
-      (reference "R28") (unit 1) (value "360R/0.5W") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060629c35/00000000-0000-0000-0000-00006062f291"
-      (reference "R29") (unit 1) (value "360R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060629c35/00000000-0000-0000-0000-00006062f27c"
-      (reference "R30") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060629c35/00000000-0000-0000-0000-00006062f276"
-      (reference "R31") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060629c35/00000000-0000-0000-0000-00006062f24c"
-      (reference "U8") (unit 1) (value "TLP160G") (footprint "Package_SO:MFSOP6-4_4.4x3.6mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-00006068f3b5/ae321a28-4e0f-457c-8caf-d766be9e382c"
-      (reference "#LOGO?") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00006068f3b5/00000000-0000-0000-0000-00006062f29c"
-      (reference "#PWR046") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00006068f3b5/00000000-0000-0000-0000-00006062f286"
-      (reference "#PWR047") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00006068f3b5/0cf5727e-b364-402f-a2a7-cd2e02bc599d"
-      (reference "#SYM?") (unit 1) (value "SYM_Flash_Small") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00006068f3b5/792488fd-7c49-42e3-8aef-22db23abbe53"
-      (reference "#SYM?") (unit 1) (value "SYM_Arrow45_Small") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00006068f3b5/00000000-0000-0000-0000-00006062f252"
+    (path "/00000000-0000-0000-1000-00006068f3b5/00000000-0000-0000-0000-00006062f252"
       (reference "Q3") (unit 1) (value "T835-600B") (footprint "Package_TO_SOT_SMD:TO-252-2")
     )
-    (path "/00000000-0000-0000-0000-00006068f3b5/00000000-0000-0000-0000-00006062f258"
+    (path "/00000000-0000-0000-1000-00006068f3b5/00000000-0000-0000-0000-00006062f258"
       (reference "Q4") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/00000000-0000-0000-0000-00006068f3b5/00000000-0000-0000-0000-00006062f25e"
+    (path "/00000000-0000-0000-1000-00006068f3b5/00000000-0000-0000-0000-00006062f25e"
       (reference "R20") (unit 1) (value "360R/0.5W") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00006068f3b5/00000000-0000-0000-0000-00006062f291"
+    (path "/00000000-0000-0000-1000-00006068f3b5/00000000-0000-0000-0000-00006062f291"
       (reference "R21") (unit 1) (value "360R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00006068f3b5/00000000-0000-0000-0000-00006062f27c"
+    (path "/00000000-0000-0000-1000-00006068f3b5/00000000-0000-0000-0000-00006062f27c"
       (reference "R22") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00006068f3b5/00000000-0000-0000-0000-00006062f276"
+    (path "/00000000-0000-0000-1000-00006068f3b5/00000000-0000-0000-0000-00006062f276"
       (reference "R23") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00006068f3b5/00000000-0000-0000-0000-00006062f24c"
+    (path "/00000000-0000-0000-1000-00006068f3b5/00000000-0000-0000-0000-00006062f24c"
       (reference "U6") (unit 1) (value "TLP160G") (footprint "Package_SO:MFSOP6-4_4.4x3.6mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-0000606d3a29/ae321a28-4e0f-457c-8caf-d766be9e382c"
-      (reference "#LOGO?") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000606d3a29/00000000-0000-0000-0000-00006062f29c"
-      (reference "#PWR049") (unit 1) (value "+5V") (footprint "")
+      (reference "#LOGO3") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000606d3a29/00000000-0000-0000-0000-00006062f286"
-      (reference "#PWR050") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000606d3a29/0cf5727e-b364-402f-a2a7-cd2e02bc599d"
-      (reference "#SYM?") (unit 1) (value "SYM_Flash_Small") (footprint "")
+    (path "/00000000-0000-0000-0000-0000606d3a29/00000000-0000-0000-0000-00006062f29c"
+      (reference "#PWR0105") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000606d3a29/792488fd-7c49-42e3-8aef-22db23abbe53"
-      (reference "#SYM?") (unit 1) (value "SYM_Arrow45_Small") (footprint "")
+      (reference "#SYM6") (unit 1) (value "SYM_Arrow45_Small") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000606d3a29/0cf5727e-b364-402f-a2a7-cd2e02bc599d"
+      (reference "#SYM7") (unit 1) (value "SYM_Flash_Small") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000606d3a29/00000000-0000-0000-0000-00006062f252"
       (reference "Q5") (unit 1) (value "T835-600B") (footprint "Package_TO_SOT_SMD:TO-252-2")
@@ -4795,7 +4759,7 @@
       (reference "U7") (unit 1) (value "TLP160G") (footprint "Package_SO:MFSOP6-4_4.4x3.6mm_P1.27mm")
     )
     (path "/dd03b277-31a7-4069-8dc6-f5f7f7187411/da3aa126-0a7a-4bf1-ab91-12ca0574a255"
-      (reference "#LOGO?") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "")
+      (reference "#LOGO4") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "")
     )
     (path "/dd03b277-31a7-4069-8dc6-f5f7f7187411/084ee0db-3112-46e7-8e7f-4fff702d072b"
       (reference "#PWR035") (unit 1) (value "NEUT") (footprint "")
@@ -4813,7 +4777,7 @@
       (reference "#PWR039") (unit 1) (value "VCC") (footprint "")
     )
     (path "/dd03b277-31a7-4069-8dc6-f5f7f7187411/4b68cb0a-fc42-42fa-97d6-357555ebdf9b"
-      (reference "#SYM?") (unit 1) (value "SYM_Flash_Small") (footprint "")
+      (reference "#SYM8") (unit 1) (value "SYM_Flash_Small") (footprint "")
     )
     (path "/dd03b277-31a7-4069-8dc6-f5f7f7187411/fcd8f923-0034-4176-a3e5-2a5d15d0150b"
       (reference "C10") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -4830,8 +4794,44 @@
     (path "/dd03b277-31a7-4069-8dc6-f5f7f7187411/51a14b95-0a7b-4083-bc1f-a26d11bd0e16"
       (reference "U4") (unit 1) (value "MID400") (footprint "Package_DIP:SMDIP-8_W7.62mm")
     )
+    (path "/c31b896b-ce94-47ca-afa8-bf3b0d71d02b/7a447b31-06af-4888-9ffd-6e8b50cf410d"
+      (reference "#LOGO5") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "")
+    )
+    (path "/c31b896b-ce94-47ca-afa8-bf3b0d71d02b/5339e379-2625-465a-bbb7-27c9f7b2f0b5"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c31b896b-ce94-47ca-afa8-bf3b0d71d02b/ec28e9cc-5a4f-4a06-8408-40d76ae3eed7"
+      (reference "#PWR0107") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/c31b896b-ce94-47ca-afa8-bf3b0d71d02b/f926cfe3-aefa-468c-b53e-3001415da8c9"
+      (reference "#SYM9") (unit 1) (value "SYM_Arrow45_Small") (footprint "")
+    )
+    (path "/c31b896b-ce94-47ca-afa8-bf3b0d71d02b/2650dc99-ca33-4e28-9c91-692832883a4e"
+      (reference "#SYM10") (unit 1) (value "SYM_Flash_Small") (footprint "")
+    )
+    (path "/c31b896b-ce94-47ca-afa8-bf3b0d71d02b/113fdc1d-39a6-4aca-9341-085aca65734f"
+      (reference "Q7") (unit 1) (value "T835-600B") (footprint "Package_TO_SOT_SMD:TO-263-2")
+    )
+    (path "/c31b896b-ce94-47ca-afa8-bf3b0d71d02b/8d9e7128-3050-4d19-af15-2f6c36215dad"
+      (reference "Q8") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/c31b896b-ce94-47ca-afa8-bf3b0d71d02b/e3c0d5b0-b1e5-4561-98ec-001a6cba96bf"
+      (reference "R28") (unit 1) (value "360R/0.5W") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    )
+    (path "/c31b896b-ce94-47ca-afa8-bf3b0d71d02b/e6ad9577-1cbe-4bae-a893-5855a271fff6"
+      (reference "R29") (unit 1) (value "360R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/c31b896b-ce94-47ca-afa8-bf3b0d71d02b/616b4e4e-964f-4a8c-9ad7-0f76e7fe3a3b"
+      (reference "R30") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/c31b896b-ce94-47ca-afa8-bf3b0d71d02b/e10d6d29-163e-41bb-8b74-5bbe0fd01ae7"
+      (reference "R31") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/c31b896b-ce94-47ca-afa8-bf3b0d71d02b/12596eeb-43bd-4e8c-95e2-227dee8c7801"
+      (reference "U8") (unit 1) (value "TLP160G") (footprint "Package_SO:MFSOP6-4_4.4x3.6mm_P1.27mm")
+    )
     (path "/05010e3e-00da-4795-be36-9a91498676b3/da3aa126-0a7a-4bf1-ab91-12ca0574a255"
-      (reference "#LOGO?") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "")
+      (reference "#LOGO6") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "")
     )
     (path "/05010e3e-00da-4795-be36-9a91498676b3/084ee0db-3112-46e7-8e7f-4fff702d072b"
       (reference "#PWR040") (unit 1) (value "NEUT") (footprint "")
@@ -4849,7 +4849,7 @@
       (reference "#PWR044") (unit 1) (value "VCC") (footprint "")
     )
     (path "/05010e3e-00da-4795-be36-9a91498676b3/4b68cb0a-fc42-42fa-97d6-357555ebdf9b"
-      (reference "#SYM?") (unit 1) (value "SYM_Flash_Small") (footprint "")
+      (reference "#SYM11") (unit 1) (value "SYM_Flash_Small") (footprint "")
     )
     (path "/05010e3e-00da-4795-be36-9a91498676b3/fcd8f923-0034-4176-a3e5-2a5d15d0150b"
       (reference "C11") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
