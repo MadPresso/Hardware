@@ -150,7 +150,7 @@
     (property "Sheet name" "Heater Triac")
     (path "/00000000-0000-0000-0000-000060629c35/00000000-0000-0000-0000-00006062f252")
     (attr smd)
-    (fp_text reference "Q7" (at 0 -4.5 -90) (layer "F.SilkS")
+    (fp_text reference "Q7" (at -6.4 -0.025) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp acea7386-27e1-4e26-88f1-80a4e112b54b)
     )
