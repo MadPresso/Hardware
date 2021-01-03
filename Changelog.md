@@ -3,6 +3,10 @@
 * Thicker thermal connectors on LINE power plane, amended clearance a bit
 * Fix Q2 polarity
 * Add open hardware logo
+* Add back KiCad logo
+* Make pump triac switch NEUT instead of LINE
+* Improve clearance
+* Make all capacitors ceramic types
 
 # Changelog v1 → v1.1
 
