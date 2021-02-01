@@ -4702,7 +4702,7 @@
       (reference "#SYM?") (unit 1) (value "SYM_Arrow45_Small") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060629c35/00000000-0000-0000-0000-00006062f252"
-      (reference "Q7") (unit 1) (value "T835-600B") (footprint "Package_TO_SOT_SMD:TO-252-2")
+      (reference "Q7") (unit 1) (value "BT138-600") (footprint "Package_TO_SOT_SMD:TO-252-2")
     )
     (path "/00000000-0000-0000-0000-000060629c35/00000000-0000-0000-0000-00006062f258"
       (reference "Q8") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -4738,7 +4738,7 @@
       (reference "#SYM?") (unit 1) (value "SYM_Arrow45_Small") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006068f3b5/00000000-0000-0000-0000-00006062f252"
-      (reference "Q3") (unit 1) (value "T835-600B") (footprint "Package_TO_SOT_SMD:TO-252-2")
+      (reference "Q3") (unit 1) (value "BT138-600") (footprint "Package_TO_SOT_SMD:TO-252-2")
     )
     (path "/00000000-0000-0000-0000-00006068f3b5/00000000-0000-0000-0000-00006062f258"
       (reference "Q4") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -4774,7 +4774,7 @@
       (reference "#SYM?") (unit 1) (value "SYM_Arrow45_Small") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000606d3a29/00000000-0000-0000-0000-00006062f252"
-      (reference "Q5") (unit 1) (value "T835-600B") (footprint "Package_TO_SOT_SMD:TO-252-2")
+      (reference "Q5") (unit 1) (value "BT138-600") (footprint "Package_TO_SOT_SMD:TO-252-2")
     )
     (path "/00000000-0000-0000-0000-0000606d3a29/00000000-0000-0000-0000-00006062f258"
       (reference "Q6") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")

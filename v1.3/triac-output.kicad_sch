@@ -1313,7 +1313,7 @@
     (property "Reference" "Q3" (id 0) (at 85.6488 50.9016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "T835-600B" (id 1) (at 85.6488 53.213 0)
+    (property "Value" "BT138-600" (id 1) (at 85.6488 53.213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:TO-252-2" (id 2) (at 83.82 50.165 0)
